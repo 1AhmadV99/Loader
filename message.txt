@@ -427,7 +427,7 @@ loadAgeBtn.MouseButton1Click:Connect(function()
         fadeTween.Completed:Connect(function()
             screenGui:Destroy()
             -- Your working pet age script here 👇
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/DeltaScriptzHub/KitsuneV1-Predictor/refs/heads/main/ScriptManual"))()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Script0123/Loader/refs/heads/main/Load/EGG-Randomizer.lua", true))()
         end)
     end)
 end)
