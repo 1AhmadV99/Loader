@@ -427,7 +427,7 @@ loadAgeBtn.MouseButton1Click:Connect(function()
         fadeTween.Completed:Connect(function()
             screenGui:Destroy()
             -- Your working pet age script here 👇
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/Script0123/Loader/refs/heads/main/Load/EGG-Randomizer.lua", true))()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/Zynn157/NoLag-HUB/refs/heads/main/NolagHUB"))()
         end)
     end)
 end)
@@ -518,7 +518,7 @@ mutationBtn.MouseButton1Click:Connect(function()
         fadeTween.Completed:Connect(function()
             screenGui:Destroy()
             -- ✅ Correct loadstring goes here
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/Script0123/Loader/refs/heads/main/Load/EGG-Randomizer.lua", true))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/Zynn157/NoLag-HUB/refs/heads/main/NolagHUB"))()
         end)
     end)
 
